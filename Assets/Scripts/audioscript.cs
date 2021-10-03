@@ -48,5 +48,9 @@ public class audioscript : MonoBehaviour
             {
                 musicSource.loop = false;
             }
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }    
     }
 }
